@@ -1,2 +1,2 @@
-# TechGig Data Structure
+# TechGig Data Structure Solutions
  
