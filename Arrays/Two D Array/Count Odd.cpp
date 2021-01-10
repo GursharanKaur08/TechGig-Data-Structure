@@ -1,3 +1,16 @@
+/*Count Odd
+Given a 2D array, count the odd numbers out of it.
+</
+
+Input Format
+You will taking two integers as input on one line separated by space representing rows and columns of the matrix. Following lines after that will be elements of the matrix with each element separated by space.
+
+Constraints
+1 <= n,m <= 1000
+
+Output Format
+Print the count of odd elements.*/
+
 #include <iostream>
 using namespace std;
 int main()
