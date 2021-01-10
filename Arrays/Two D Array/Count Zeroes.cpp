@@ -1,3 +1,15 @@
+/*Count Zeros 
+Given a 2D array, Count the number of zeros of the array.
+
+Input Format
+You will taking two integers as input on one line separated by space representing rows and columns of the matrix. Following lines after that will be elements of the matrix with each element separated by space.
+
+Constraints
+1 <= n,m <= 1000
+
+Output Format
+Print the count to the STDOUT.*/
+
 #include <iostream>
 using namespace std;
 int main()
