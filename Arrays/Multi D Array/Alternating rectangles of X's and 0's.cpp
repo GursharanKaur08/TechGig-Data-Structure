@@ -7,6 +7,7 @@ int main()
    cin>>m>>n;
    right=n-1;
    bottom=m-1;
+	
    while(top<=bottom && right>=left)
    {
        for(i=left;i<=right;i++)
@@ -20,17 +21,20 @@ int main()
            a[i][right]=x;
        }
        right--;
+       
        for(i=right;i>=left;i--)
        {
            a[bottom][i]=x;
        }
        bottom--;
+       
        for(i=bottom;i>=top;i--)
        {
            a[i][left]=x;
        }
        left++;
-       if (x=='X')
+       
+	   if (x=='X')
 			x='0';
 	   else
 	   		x='X';
