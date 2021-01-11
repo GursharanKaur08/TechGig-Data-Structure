@@ -1,3 +1,15 @@
+/*2D Array - Alternating rectangles of O and X
+Write a code which inputs two numbers m and n and creates a matrix of size m x n (m rows and n columns) in which every elements is either X or 0. The Xs and 0s must be filled alternatively, the matrix should have outermost rectangle of Xs, then a rectangle of 0s, then a rectangle of Xs, and so on.. 
+
+Input Format
+You need to tell that how many rows and columns your matrix need to have and these values should be separated by space.
+
+Constraints
+1 <= n,m <= 1000
+
+Output Format
+Print the resultant matrix to the stdout.*/
+
 using namespace std;
 #include<iostream>
 int main()
