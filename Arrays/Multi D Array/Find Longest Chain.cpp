@@ -1,3 +1,15 @@
+/*2D Array - Find Longest Chain 
+Find the length of the longest chain of consecutive integers in an unsorted 2D square array (non-diagonal).
+
+Input Format
+On first line you need to tell that how many rows and columns your matrix need to have and these values should be separated by space.Then after that, each line will represent will represent each row and you need to enter numbers which each rows should have separated by a space.
+
+Constraints
+1 <= n,m <= 1000
+
+Output Format
+Print the length of the longest chain to the stdout.*/
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
